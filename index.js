@@ -22,13 +22,13 @@ var api = new ParseServer({
 	masterKey: process.env.MASTER_KEY || 'myMasterKey', //Add your master key here. Keep it secret!
 
 	auth:{
-		twitter: {
+		/*twitter: {
 	    	//consumer_key: "", // REQUIRED
 	    	//consumer_secret: "" // REQUIRED
 	   	},
 	   	facebook: {
 	     	//appIds: process.env.FACEBOOK_APP_ID || ""
-	   	},
+	   	},*/
 		google{
 
 		}
