@@ -21,6 +21,18 @@ var api = new ParseServer({
 	appId: process.env.APP_ID || 'myAppId',
 	masterKey: process.env.MASTER_KEY || 'myMasterKey', //Add your master key here. Keep it secret!
 
+	auth:{
+		twitter: {
+	    	//consumer_key: "", // REQUIRED
+	    	//consumer_secret: "" // REQUIRED
+	   	},
+	   	facebook: {
+	     	//appIds: process.env.FACEBOOK_APP_ID || ""
+	   	},
+		google{
+
+		}
+	},
 	//**** Live Query ****//
 	// liveQuery: {
 	// 	classNames: ["TestObject", "Place", "Team", "Player", "ChatMessage"] // List of classes to support for query subscriptions
