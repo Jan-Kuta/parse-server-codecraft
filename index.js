@@ -29,7 +29,7 @@ var api = new ParseServer({
 	   	facebook: {
 	     	//appIds: process.env.FACEBOOK_APP_ID || ""
 	   	},*/
-		google{
+		google: {
 
 		}
 	},
